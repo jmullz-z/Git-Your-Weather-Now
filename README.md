@@ -24,7 +24,7 @@ This application is a Weather Dashboard, created using Open Weather API, Javascr
 This application is to catch your current and five day forecast in one view. It also saves your cities searched for later use.
 
 2. How to Get There
-Open your favorite web browser and enter the following web address to access.
+Open your favorite web browser and enter the following web address to access:  https://jmullz-z.github.io/Git-Your-Weather-Now/
 
 3. Usage Tips
 Testing the application
