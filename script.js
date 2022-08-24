@@ -145,9 +145,9 @@ function renderCities() {
         }).then(function(response5day) { 
             $("#boxes").empty();
             console.log(response5day);
-            for(var i=0, j=0; j<=5; i=i+6){
+            for(var i=0; i<40; i=i+8){
                 var read_date = response5day.list[i].dt;
-                if(response5day.list[i].dt != response5day.list[i+1].dt){
+                // if(response5day.list[i].dt != response5day.list[i+1].dt){
                     var FivedayDiv = $("<div>");
                     FivedayDiv.attr("class","col-3 m-2 bg-primary")
                     var d = new Date(0); // The 0 there is the key, which sets the date to the epoch
@@ -182,8 +182,8 @@ function renderCities() {
                     FivedayDiv.append(pHumidity);
                     $("#boxes").append(FivedayDiv);
                     console.log(response5day);
-                    j++;
-                }
+                    // i++;
+                // }
             
         }
       
